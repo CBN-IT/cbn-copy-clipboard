@@ -2,7 +2,7 @@
   "name": "cbn-copy-clipboard",
   "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.5"
+    "polymer": "Polymer/polymer#^1.2"
   },
   "version": "0.1"
 }
