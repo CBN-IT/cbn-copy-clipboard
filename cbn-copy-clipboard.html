@@ -3,11 +3,12 @@
 
 <dom-module id="cbn-copy-clipboard">
 	<style>
+		:host{
+			cursor: pointer;
+		}
 	</style>
 	<template>
-		<span on-click="copy">
-			<content id="content"></content>
-		</span>
+		<content id="content"></content>
 	</template>
 	<script>
 		Polymer({
@@ -17,6 +18,9 @@
 					type:String,
 					value:""
 				}	
+			},
+			listeners: {
+				"click": "copy"
 			},
 			behaviors:[Cbn.CopyClipboard],
 			copy: function () {
