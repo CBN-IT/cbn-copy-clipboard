@@ -7,7 +7,9 @@
 
 ```html
 <cbn-copy-clipboard>This text will be copied on click.</cbn-copy-clipboard>
-<cbn-copy-clipboard value="{{this text will be copied}}">Button</cbn-copy-clipboard>
+<cbn-copy-clipboard value="{{valueToBeCopied}}">
+	<paper-button>Click me</papper-button>
+</cbn-copy-clipboard>
 ```
 See the [DEMO]()
 
