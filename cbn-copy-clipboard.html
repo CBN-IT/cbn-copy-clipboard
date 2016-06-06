@@ -2,6 +2,7 @@
 <link rel="import" href="cbn-copy-clipboard-behavior.html">
 
 
+
 <!--
 `cbn-copy-clipboard` Element that copies a text to clipboard
 
@@ -15,6 +16,7 @@
 			cursor: pointer;
 		}
 	</style>
+	
 	<template>
 		<content id="content"></content>
 	</template>
@@ -35,8 +37,8 @@
 			},
 			behaviors: [Cbn.CopyClipboard],
 			/**
-			 * This function is called when the user clicks on something that is inside the element
-			 * You can manually call this function, but only from a click event
+			 * This function is called when the user clicks on something that is inside the element<br />
+			 * You can manually call this function, but only from a click event<br/>
 			 * Does not work with tap event
 			 */
 			copy: function () {
