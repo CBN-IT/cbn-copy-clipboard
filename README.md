@@ -11,7 +11,7 @@
 	<paper-button>Click me</papper-button>
 </cbn-copy-clipboard>
 ```
-See the [DEMO]()
+See the [DEMO](https://cbn-elements.appspot.com/elements/cbn-copy-clipboard?view=demo:demo.html&active=cbn-copy-clipboard)
 
 #### Version
 1.0.0
