@@ -3,6 +3,11 @@
 		window.Cbn = {};
 	}
 	Cbn.CopyClipboard = {
+		/**
+		 * Function that copies the text to clipboard
+		 * source: http://stackoverflow.com/a/30810322/1016548
+		 * @param text {string} The string to be copied. Must call this function on a click event
+         */
 		copyTextToClipboard: function (text) {
 			//source: http://stackoverflow.com/a/30810322/1016548
 			var textArea = document.createElement('textarea');
