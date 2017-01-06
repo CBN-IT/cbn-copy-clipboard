@@ -10,7 +10,8 @@
         "paper-input": "PolymerElements/paper-input#^1.1.11",
         "paper-ripple": "PolymerElements/paper-ripple#^1.0.5",
         "paper-button": "PolymerElements/paper-button#^1.0.12",
-        "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.3"
+        "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.3",
+        "iron-component-page": "^1.1.7"
     },
     "version": "1.0.0"
 }
