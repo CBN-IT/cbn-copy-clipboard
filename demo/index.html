@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>cbn-copy-clipboard demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../../paper-button/paper-button.html">
+    <link rel="import" href="../../paper-input/paper-textarea.html">
+    <link rel="import" href="../cbn-copy-clipboard.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic cbn-copy-clipboard demo</h3>
+      <demo-snippet>
+        <template>
+          <cbn-copy-clipboard>This text will be copied on click.</cbn-copy-clipboard>
+        </template>
+      </demo-snippet>
+      <paper-textarea label="Paste the text HERE"></paper-textarea>
+      <demo-snippet class="centered-demo">
+        <template>
+          <cbn-copy-clipboard value="valueToBeCopied">
+            <paper-button raised>Click me</paper-button>
+          </cbn-copy-clipboard>
+        </template>
+      </demo-snippet>
+      <paper-textarea label="Paste the text HERE"></paper-textarea>
+    </div>
+  </body>
+</html>
