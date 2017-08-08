@@ -23,13 +23,8 @@ custom polymer element that is copying text ti clipboard just by one click
             static get is() {
                 return 'cbn-copy-clipboard';
             }
-
             static get properties() {
                 return {
-                    prop1: {
-                        type: String,
-                        value: 'cbn-copy-clipboard'
-                    },
                     value: {
                         type: String,
                         value: ""
@@ -47,7 +42,6 @@ custom polymer element that is copying text ti clipboard just by one click
              * source: http://stackoverflow.com/a/30810322/1016548
              * @param text {string} The string to be copied. Must call this function on a click event
              */
-
             copy() {
                 //this function call must come from an event like click
                 if (this.value != null && this.value != '') {
