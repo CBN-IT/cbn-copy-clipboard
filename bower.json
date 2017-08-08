@@ -3,14 +3,14 @@
   "description": "custom polymer element that is copying text ti clipboard just by one click",
   "main": "cbn-copy-clipboard.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0",
-    "paper-input": "PolymerElements/paper-input#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0"
   },
   "devDependencies": {
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
     "iron-component-page": "PolymerElements/iron-component-page#3.0.1",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0.0",
-    "web-component-tester": "v6.0.0-prerelease.5"
+    "web-component-tester": "v6.0.0-prerelease.5",
+    "paper-input": "PolymerElements/paper-input#^2.0.0"
   },
   "resolutions": {
     "polymer": "^2.0.0"
