@@ -8,14 +8,13 @@
 @demo demo.html
 -->
 <dom-module id="cbn-copy-clipboard">
-	<style>
-		:host {
-			cursor: pointer;
-		}
-	</style>
-	
 	<template>
-		<content id="content"></content>
+		<style>
+			:host {
+				cursor: pointer;
+			}
+		</style>
+		<slot></slot>
 	</template>
 	<script>
 		Polymer({
@@ -59,4 +58,3 @@
 		});
 	</script>
 </dom-module>
-  
