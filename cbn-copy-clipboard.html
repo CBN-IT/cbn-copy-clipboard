@@ -43,7 +43,7 @@
 					this.copyTextToClipboard(this.value);
 				} else {
 					var c = '';
-					var distributedNodes = Polymer.dom(this.$.content).getDistributedNodes();
+					var distributedNodes = this.shadowRoot.querySelector('slot').assignedNodes({flatten:true});
 					for (var i = 0; i < distributedNodes.length; ++i) {
 						var el = distributedNodes[i];
 						if (el.nodeType == 3) {
